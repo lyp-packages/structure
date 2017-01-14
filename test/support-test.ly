@@ -1,6 +1,6 @@
 \version "2.19.37"
 \require "assert"
-\pinclude "../package.ly"
+\require "structure:.."
 
 #(begin
   (assert:string=? (->string "abc") "abc")
