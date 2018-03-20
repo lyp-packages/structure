@@ -1,4 +1,6 @@
 \version "2.19.37"
+\require "structure"
+
 \pinclude "music.ly"
 
 \cd "bwv12/aria"
@@ -12,3 +14,5 @@
 #(sly:set! 'editions/chorton
   '((transpose . "f g")
     (titles/edition . Chorton)))
+
+\make-score #'bwv12/aria

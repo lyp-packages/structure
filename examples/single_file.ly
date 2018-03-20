@@ -1,29 +1,5 @@
-# structure - write big scores using Lilypond (WIP)
+\version "2.19.37"
 
-Structure is a framework for writing big scores in Lilypond. Structure provides
-the infrastructure to easily put together big multi-movement, multi-part scores.
-
-Features:
-
-- Automatic scores.
-- Automatic part-extraction.
-- Automatic staff groups and staff ordering.
-- Define multiple "editions" with separate score and part settings.
-- Perform partial compilation for faster editing cycles.
-
-**Structure is a work-in-progress.**
-
-## Installation
-
-Install using [lyp](https://github.com/noteflakes/lyp):
-
-```bash
-$ lyp install structure
-```
-
-## A simple example
-
-```lilypond
 \require "structure"
 
 \cd "aria"
@@ -44,6 +20,3 @@ $ lyp install structure
 
 % get a nice score, with proper staff groups and staff ordering
 \make-score "aria"
-```
-
-More documentation to be added shortly.
